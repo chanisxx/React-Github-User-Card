@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+html {
+  background: rgb(243, 243, 243)
+}
+
+.userCard {
+  margin: 4% 10%;
+  background-color:white;
+  box-shadow: 0px 4px 3px -2px rgba(0,0,0,0.41);
+  /* border: .5px lightgrey solid; */
+  border-radius: 5px;
+  padding: 0px 15px;
+
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.cont {
+  border-bottom: solid lightgrey .5px;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+.cont2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.folCard{
+  margin: 4% 10%;
+  padding-top: 30px;
+  border-top: .5px lightgrey solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
